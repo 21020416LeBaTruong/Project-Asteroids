@@ -13,7 +13,7 @@ Asteroids game
 
 ## Mô tả chi tiết
 ## _Nhân vật_
-- Nhân vật chính của game được sinh ra với một điều đặc biệt là sợ con trỏ chuột, tức khi ta di chuột đến thì nhân vật sẽ di chuyển theo hướng ngược lại. Ngoài ra thì nếu chuột chạm vào nhân vật thì nhân vật đó sẽ "chết", phần nào lí giải cho chứng sợ con trỏ chuột này.
+- Người chơi sẽ điều khiển nhân vật là một tàu không gian bị lạc trong vũ trụ, nhiệm vụ của bạn là điều khiển nhân vật để bắn phá các thiên thể cũng như kẻ địch để bảo toàn tính mạng càng lâu càng tốt.
 
 
 
@@ -50,7 +50,7 @@ _**SFML**_
 _**C++**_
 - Kiến thức cơ bản: mảng, chuỗi, random,...
 - Đọc ghi dữ liệu 
-- Lập trình hướng đối tượng sơ cấp: class; vận dụng tính đóng gói, kế thừa;...
+- Lập trình hướng đối tượng sơ cấp: class, vận dụng tính đóng gói, kế thừa,...
 
 _**Kĩ thuật khác**_
 - Tính toán, căn chỉnh các đối tượng.
@@ -78,7 +78,11 @@ _**Kĩ thuật khác**_
     - Animation: Tìm kiếm gift trên google image rồi convert thành sprite sheet.
 
 ## _Kết luận_
-
+- Sau khi hoàn thành dự án game cuối kì này, em đã cải thiện cho mình rất nhiều kĩ năng trong tư duy code, lên ý tưởng, các kĩ năng photoshop, tạo animation...
+- Định hướng tương lai:
+    - Thêm một số tính năng như pause game, mute,...
+    - Thêm boss cho game, các item phong phú hơn.
+    - tối ưu hóa code, module hóa, làm code sạch sẽ hơn.
 
 ## Lời cuối
   Cảm ơn mọi người đã dành thời gian theo dõi project!!!
