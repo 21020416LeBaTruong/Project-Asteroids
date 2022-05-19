@@ -64,8 +64,8 @@ _**Kĩ thuật khác**_
 ## _Cài đặt_
 - Clone code trên github.
 - Cop file dll vào thư mục Asteroids.
-
-
+- Cop file exe trong bùn/debug vào thư mục Asteroids.
+- Mở file exe để chơi.
 ## _Nguồn tham khảo_
 - Về thư viện SFML: https://www.sfml-dev.org
 - Về cách triển khai các kĩ thuật:
@@ -79,6 +79,9 @@ _**Kĩ thuật khác**_
 
 ## _Kết luận_
 - Sau khi hoàn thành dự án game cuối kì này, em đã cải thiện cho mình rất nhiều kĩ năng trong tư duy code, lên ý tưởng, các kĩ năng photoshop, tạo animation...
+- Điều tâm đắc:
+    - Game tương đối hoàn chỉnh.
+    - có thêm nhiều kinh nghiệm trong phát triển dự án.
 - Định hướng tương lai:
     - Thêm một số tính năng như pause game, mute,...
     - Thêm boss cho game, các item phong phú hơn.
