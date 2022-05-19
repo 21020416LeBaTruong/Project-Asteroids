@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sfmlproject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/sfmlproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/LENOVO/Downloads/SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-network-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+					<Add directory="C:/Users/LENOVO/Downloads/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/sfmlproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=gnu++14" />
+					<Add directory="C:/Users/LENOVO/Downloads/SFML-2.5.1/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-network" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+					<Add directory="C:/Users/LENOVO/Downloads/SFML-2.5.1/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Animation.cpp" />
+		<Unit filename="Animation.h" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="Game.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="asteroid.cpp" />
+		<Unit filename="asteroid.h" />
+		<Unit filename="boardHighScore.cpp" />
+		<Unit filename="boardHighScore.h" />
+		<Unit filename="bomb.cpp" />
+		<Unit filename="bomb.h" />
+		<Unit filename="bombIcon.cpp" />
+		<Unit filename="bombIcon.h" />
+		<Unit filename="bombPlayer.h" />
+		<Unit filename="bullet.cpp" />
+		<Unit filename="bullet.h" />
+		<Unit filename="enemy..cpp" />
+		<Unit filename="enemy.h" />
+		<Unit filename="heart.cpp" />
+		<Unit filename="heart.h" />
+		<Unit filename="highScore.h" />
+		<Unit filename="isCollide.h" />
+		<Unit filename="lifePlayer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menuHighScore.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="power.h" />
+		<Unit filename="powerIcon.cpp" />
+		<Unit filename="powerIcon.h" />
+		<Unit filename="score.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
