@@ -158,7 +158,6 @@ int main()
         Event event;
 
         int power=1, power2=1;
-        bool checkSnow=0;
         while (app.pollEvent(event)){
             if (event.type == Event::Closed)
                 app.close();
